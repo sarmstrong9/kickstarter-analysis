@@ -17,8 +17,11 @@ Analysis was performed on what the outcome was of all theater based Kickstarter 
 
 The final action to the table was to sort on Outcomes which ordered them as "Successful", "Failed", "Cancelled".
 
-A pivot chart was then created to show this data graphically and provide a clear picture of what the data is showing.
-![Theater Outcomes Based on Launch Date](/Resources/Theater_Outcomes_vs_Launch.png) 
+A pivot chart was then created to show this data graphically and provide a clear picture of what the data is showing.  This chart is shown below:
+![Theater Outcomes Based on Launch Date](/Resources/Theater_Outcomes_vs_Launch.png)
+
+In addition, for reference, the parent pivot table is shown below:
+![Theater Outcomes Based on Launch Date Pivot](/Resources/Theater_Outcomes_vs_Launch_PivotTable.png)
 
 
 ### Analysis of Outcomes Based on Goals
@@ -27,10 +30,11 @@ Analysis was performed to show what the success/failure/cancelled outcomes were 
 Using the "COUNTIFS" formula in excel, logic was created to count the number of "Successes", "Failures", and "Cancelled" outcomes for each dollar threshold.  These items were then summed up in a new column to calculate the total number for each dollar threshold.  The totaled amounts then allowed us to calculate the percentage of each outcome count compared to its total count at each dollar threshold.
 
 Once this table was completed, a chart was created to show the percentage of each outcome based on the dollar range.  This chart shows the data much more intuitively and allows conclusions to be drawn much easier compared to simply looking at the numbers in the table.  A basic line chart was used as this was the most effective chart to show how the trend progresses as the dollar amount is raised.  This final chart is shown below:
-[asdf](img URL)
+![Outcomes vs Goals Chart](/Resources/Outcomes_vs_Goals.png)
 
 See below the table showing the final values along with a table showing the formulas used to calculate these values.
-[asdf](img URL)
+![Outcomes vs Goals Table](/Resources/Outcomes_vs_Goals_Table.png)
+![Outcomes vs Goals Table with Formulas](/Resources/Outcomes_vs_Goals_Table_Formulas.png)
 
 ### Challenges and Difficulties Encountered
 
