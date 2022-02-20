@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-This project is geared towards using a large data set for all types of Kickstarter campaigns over a set amount of time.  Captured data points are items such as type or category of campaign, amount pledged, amount donated, what the outcome of the campaign was such as success/failure/cancelled.  With this data and the tools and knowledge of excel, we are able to distill the data into trends, outcomes, and business advice for how to set up a successful Kickstarter campaign.
+This project is geared towards using a large data set for all types of Kickstarter campaigns over a set amount of time.  Captured data points are items such as type or category of campaign, amount pledged, amount donated, and what the outcome of the campaign was, such as success/failure/cancelled.  With this data and the tools and knowledge of excel, we are able to distill the data into trends, outcomes, and business advice for how to set up a successful Kickstarter campaign.
 
 ### Purpose
 The purpose of this project is to give advice to Louise, a playwright, who is looking to achieve the highest chance of success in launching a Kickstarter campaign to fund her new idea.  The data was used to determine what a good campaign goal would be, what time of the year it should be launched, and what types of plays had the most success.  After the initial funding was complete, analysis was then conducted on campaigns in relation to their launch dates and their funding goals to further provide insight into how to maximize the chance for success compared to similar campaigns.  This latter analysis is the main focus of this report. 
@@ -10,10 +10,10 @@ The purpose of this project is to give advice to Louise, a playwright, who is lo
 
 ### Analysis of Outcomes Based on Launch Date
 Analysis was performed on what the outcome was of all theater based Kickstarter campaigns based on what month the Kickstarter campaign was launched.  The sheet titled "Theater Outcomes by Launch Date" in the Kickstarter_Challenge.xlsx file contains this specific analysis.  To gather this data, a pivot table was created from the master data sheet titled "Kickstarter" using the following data points:
--Date of campaign creation to show this on a per month basis
--Outcomes of the campaign to show if it was success/failure/cancelled and the count of each per month
--Filter of the category so only theater projects can be shown
--Filter of the year in which the year of the campaign launch can be used to filter the data down even further, however this filter was not utilized fot this analysis.
+- Date of campaign creation shown on a per month basis
+- Outcomes of the campaign to show if it was success/failure/cancelled and the count of each per month
+- Filter of the category so only theater projects can be counted
+- Filter of the year in which the year of the campaign launch can be used to filter the data down even further, however this filter was not utilized fot this analysis.
 
 The final action to the table was to sort on Outcomes which ordered them as "Successful", "Failed", "Cancelled".
 
