@@ -18,7 +18,7 @@ Analysis was performed on what the outcome was of all theater based Kickstarter 
 The final action to the table was to sort on Outcomes which ordered them as "Successful", "Failed", "Cancelled".
 
 A pivot chart was then created to show this data graphically and provide a clear picture of what the data is showing.
-![Theater Outcomes Based on Launch Date](/resources/Theater_Outcomes_vs_Launch.png) 
+![Theater Outcomes Based on Launch Date](/Resources/Theater_Outcomes_vs_Launch.png) 
 
 
 ### Analysis of Outcomes Based on Goals
